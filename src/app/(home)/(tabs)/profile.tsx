@@ -1,13 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import { Redirect } from 'expo-router'
 
-const index = () => {
+const profile = () => {
   return (
-  <Redirect href={"/(home)/(tabs)"}/>
+    <View>
+      <Text>profile</Text>
+    </View>
   )
 }
 
-export default index
+export default profile
 
 const styles = StyleSheet.create({})
